@@ -1,0 +1,141 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 92,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/vc-delta3d",
+			"paths" : 
+			[
+				"build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src/LICENSE",
+				"build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src/AUTHORS.md"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/vc-delta3d",
+			"paths" : 
+			[
+				{
+					"from" : "build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src/src/ng/LICENSE",
+					"to" : "LICENSE-NG"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/vc_delta3d-build/libvc_delta3d.a"
+			],
+			"targetId" : "vc_delta3d::@1215ad472d0142b9e9b7",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/vc_delta3d",
+			"exportName" : "vc_delta3dTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "vc_delta3d::@1215ad472d0142b9e9b7",
+					"index" : 5
+				}
+			],
+			"paths" : 
+			[
+				"_deps/vc_delta3d-build/CMakeFiles/Export/fd0c78e1ae9de73dbaa192ce91b0a96a/vc_delta3dTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/vc_delta3d",
+			"paths" : 
+			[
+				"build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-build/vc_delta3dConfig.cmake",
+				"build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-build/vc_delta3dConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/vc_delta3d-build",
+		"source" : "build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src"
+	}
+}

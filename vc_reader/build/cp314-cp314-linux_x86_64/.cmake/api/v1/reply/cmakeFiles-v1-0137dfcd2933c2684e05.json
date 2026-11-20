@@ -1,0 +1,2372 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "/kaggle/working/villa/vc_reader/src/cpp/*.cuh",
+			"paths" : 
+			[
+				"transforms/cuda/channel.cuh",
+				"transforms/cuda/channel_statistics.cuh",
+				"transforms/cuda/common.cuh",
+				"transforms/cuda/components.cuh",
+				"transforms/cuda/dropout_mask.cuh",
+				"transforms/cuda/foreground_selection.cuh",
+				"transforms/cuda/fourier.cuh",
+				"transforms/cuda/gaussian.cuh",
+				"transforms/cuda/geometry.cuh",
+				"transforms/cuda/histogram.cuh",
+				"transforms/cuda/label_values.cuh",
+				"transforms/cuda/launch.cuh",
+				"transforms/cuda/local_field.cuh",
+				"transforms/cuda/median.cuh",
+				"transforms/cuda/memory.cuh",
+				"transforms/cuda/morphology.cuh",
+				"transforms/cuda/noise.cuh",
+				"transforms/cuda/pointwise.cuh",
+				"transforms/cuda/random.cuh",
+				"transforms/cuda/reductions.cuh",
+				"transforms/cuda/regions.cuh",
+				"transforms/cuda/resident.cuh",
+				"transforms/cuda/scan.cuh",
+				"transforms/cuda/select_indices.cuh",
+				"transforms/cuda/separable_filter.cuh",
+				"transforms/cuda/sort_keys.cuh",
+				"transforms/cuda/statistics.cuh",
+				"transforms/cuda/structure_gradients.cuh",
+				"transforms/cuda/voxel_transform.cuh"
+			],
+			"recurse" : true,
+			"relative" : "/kaggle/working/villa/vc_reader/src/cpp"
+		},
+		{
+			"expression" : "/kaggle/working/villa/vc_reader/src/cpp/*.hpp",
+			"paths" : 
+			[
+				"aligned/common.hpp",
+				"aligned/plan.hpp",
+				"array.hpp",
+				"atomic_file.hpp",
+				"available_memory.hpp",
+				"cache_bindings.hpp",
+				"catalog_io.hpp",
+				"channel_decode.hpp",
+				"channel_policy.hpp",
+				"chunk_io.hpp",
+				"codecs.hpp",
+				"components/rows.hpp",
+				"composite/reducer.hpp",
+				"cuda_available.hpp",
+				"cuda_buffer.hpp",
+				"cuda_pool.hpp",
+				"cuda_stream.hpp",
+				"dense_affine.hpp",
+				"directional_math.hpp",
+				"disk_cache.hpp",
+				"display/bindings.hpp",
+				"display/pixels.hpp",
+				"display/slab_pixel.hpp",
+				"distance/common.hpp",
+				"element_type.hpp",
+				"element_value.hpp",
+				"geometry/bindings.hpp",
+				"geometry/common.hpp",
+				"geometry/math.hpp",
+				"geometry/plan.hpp",
+				"geometry/triangle_mesh.hpp",
+				"grid/bindings.hpp",
+				"grid/cuda.hpp",
+				"grid/derivatives.hpp",
+				"grid/level_map.hpp",
+				"grid/points.hpp",
+				"http.hpp",
+				"lru.hpp",
+				"lzw.hpp",
+				"memory_cache.hpp",
+				"output.hpp",
+				"output_pool.hpp",
+				"pathfinding/common.hpp",
+				"platform_io.hpp",
+				"projection/common.hpp",
+				"projection/mask.hpp",
+				"projection/plan.hpp",
+				"projection/transfer.hpp",
+				"projection/transfer_bindings.hpp",
+				"reader_cuda/bindings.hpp",
+				"reader_cuda/reader.hpp",
+				"reader_cuda/types.hpp",
+				"reader_types.hpp",
+				"rounding.hpp",
+				"sample_point.hpp",
+				"sampling/bindings.hpp",
+				"sampling/resident.hpp",
+				"sampling_math.hpp",
+				"sftp/ssh_process.hpp",
+				"shard_index.hpp",
+				"sheet_normal/bindings.hpp",
+				"sheet_normal/normal.hpp",
+				"sheet_normal/sample.hpp",
+				"sigv4.hpp",
+				"sources/aligned_internal.hpp",
+				"sources/bindings.hpp",
+				"storage_transform.hpp",
+				"symmetric_eigen.hpp",
+				"thinning/common.hpp",
+				"thinning/history.hpp",
+				"thinning/rules.hpp",
+				"thread_pool.hpp",
+				"tifxyz/bindings.hpp",
+				"transforms/core.hpp",
+				"transforms/cpu/additive_noise.hpp",
+				"transforms/cpu/bias_field.hpp",
+				"transforms/cpu/channel_misalignment.hpp",
+				"transforms/cpu/clahe.hpp",
+				"transforms/cpu/coherence_enhancing_diffusion.hpp",
+				"transforms/cpu/defocus.hpp",
+				"transforms/cpu/distance_transform.hpp",
+				"transforms/cpu/equalize.hpp",
+				"transforms/cpu/foreground_crop.hpp",
+				"transforms/cpu/foreground_dropout.hpp",
+				"transforms/cpu/fourier_domain_adaptation.hpp",
+				"transforms/cpu/gibbs_ringing.hpp",
+				"transforms/cpu/grid_dropout.hpp",
+				"transforms/cpu/histogram_matching.hpp",
+				"transforms/cpu/illumination.hpp",
+				"transforms/cpu/intensity.hpp",
+				"transforms/cpu/labels.hpp",
+				"transforms/cpu/motion_blur.hpp",
+				"transforms/cpu/multiplicative_noise.hpp",
+				"transforms/cpu/normalization.hpp",
+				"transforms/cpu/object_dropout.hpp",
+				"transforms/cpu/oriented_blur.hpp",
+				"transforms/cpu/palette.hpp",
+				"transforms/cpu/pixel_distribution_adaptation.hpp",
+				"transforms/cpu/plasma_brightness_contrast.hpp",
+				"transforms/cpu/plasma_shadow.hpp",
+				"transforms/cpu/random_tone_curve.hpp",
+				"transforms/cpu/ridges.hpp",
+				"transforms/cpu/ringing_overshoot.hpp",
+				"transforms/cpu/salt_and_pepper.hpp",
+				"transforms/cpu/shot_noise.hpp",
+				"transforms/cpu/spatial.hpp",
+				"transforms/cpu/stripe_masking.hpp",
+				"transforms/cpu/structure_tensor.hpp",
+				"transforms/cpu/tracing.hpp",
+				"transforms/cpu/unsharp_mask.hpp",
+				"transforms/cpu/vignetting.hpp",
+				"transforms/cpu/zoom_blur.hpp",
+				"transforms/cuda/batch_queue.hpp",
+				"transforms/cuda/device_io.hpp",
+				"transforms/cuda/device_run.hpp",
+				"transforms/cuda/dispatch.hpp",
+				"transforms/device_bindings.hpp",
+				"transforms/ops/additive_noise.hpp",
+				"transforms/ops/bias_field.hpp",
+				"transforms/ops/channel_misalignment.hpp",
+				"transforms/ops/clahe.hpp",
+				"transforms/ops/coherence_enhancing_diffusion.hpp",
+				"transforms/ops/defocus.hpp",
+				"transforms/ops/distance_transform.hpp",
+				"transforms/ops/equalize.hpp",
+				"transforms/ops/foreground_crop.hpp",
+				"transforms/ops/foreground_dropout.hpp",
+				"transforms/ops/fourier_domain_adaptation.hpp",
+				"transforms/ops/gibbs_ringing.hpp",
+				"transforms/ops/grid_dropout.hpp",
+				"transforms/ops/histogram_matching.hpp",
+				"transforms/ops/illumination.hpp",
+				"transforms/ops/intensity.hpp",
+				"transforms/ops/labels.hpp",
+				"transforms/ops/motion_blur.hpp",
+				"transforms/ops/multiplicative_noise.hpp",
+				"transforms/ops/normalization.hpp",
+				"transforms/ops/object_dropout.hpp",
+				"transforms/ops/options.hpp",
+				"transforms/ops/oriented_blur.hpp",
+				"transforms/ops/pixel_distribution_adaptation.hpp",
+				"transforms/ops/plasma_brightness_contrast.hpp",
+				"transforms/ops/plasma_shadow.hpp",
+				"transforms/ops/random_tone_curve.hpp",
+				"transforms/ops/ridges.hpp",
+				"transforms/ops/ringing_overshoot.hpp",
+				"transforms/ops/salt_and_pepper.hpp",
+				"transforms/ops/shot_noise.hpp",
+				"transforms/ops/spatial.hpp",
+				"transforms/ops/stripe_masking.hpp",
+				"transforms/ops/structure_tensor.hpp",
+				"transforms/ops/tracing.hpp",
+				"transforms/ops/unsharp_mask.hpp",
+				"transforms/ops/vignetting.hpp",
+				"transforms/ops/zoom_blur.hpp",
+				"transforms/pipeline.hpp",
+				"transforms/replay.hpp",
+				"transforms/shared/channel_requirements.hpp",
+				"transforms/shared/coherence_enhancing_diffusion.hpp",
+				"transforms/shared/component_traversal.hpp",
+				"transforms/shared/derived_field.hpp",
+				"transforms/shared/dropout_mask.hpp",
+				"transforms/shared/elastic.hpp",
+				"transforms/shared/foreground_selection.hpp",
+				"transforms/shared/fourier.hpp",
+				"transforms/shared/histogram.hpp",
+				"transforms/shared/intensity_fields.hpp",
+				"transforms/shared/local_field.hpp",
+				"transforms/shared/median.hpp",
+				"transforms/shared/percentile.hpp",
+				"transforms/shared/precision.hpp",
+				"transforms/shared/random_sampling.hpp",
+				"transforms/shared/resize_index.hpp",
+				"transforms/shared/resize_plan.hpp",
+				"transforms/shared/separable_filter.hpp",
+				"transforms/shared/surface_displacement.hpp",
+				"transforms/shared/volume_grid.hpp",
+				"transforms/shared/voxel_transform.hpp",
+				"transforms/validate.hpp",
+				"transforms/volumetric_bindings.hpp",
+				"write_behind.hpp",
+				"zarr/files.hpp",
+				"zarr/format.hpp",
+				"zarr_storage.hpp"
+			],
+			"recurse" : true,
+			"relative" : "/kaggle/working/villa/vc_reader/src/cpp"
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeSystem.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/cp314-cp314-linux_x86_64/CMakeFiles/3.31.10/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/cp314-cp314-linux_x86_64/CMakeFiles/3.31.10/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linux-Determine-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/cp314-cp314-linux_x86_64/CMakeFiles/3.31.10/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompilerABI.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/cp314-cp314-linux_x86_64/CMakeFiles/3.31.10/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Linker/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeInspectCLinker.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GNU-CXX-CXXImportStd.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/cp314-cp314-linux_x86_64/CMakeFiles/3.31.10/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeInspectCXXLinker.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindCUDAToolkit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckLanguage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCUDACompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeCUDAFindToolkit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeCUDAArchitecturesValidate.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeCUDAArchitecturesAll.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeNVCCParseImplicitInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeCUDAFilterImplicitLibs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCUDACompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/cp314-cp314-linux_x86_64/CMakeFiles/3.31.10/CMakeCUDACompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCUDAInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/NVIDIA-CUDA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/NVIDIA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linux-NVIDIA-CUDA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCUDACompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCUDACompilerABI.cu"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeCUDAArchitecturesNative.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeCUDAFilterImplicitLibs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeNVCCFilterImplicitInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCUDACompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/cp314-cp314-linux_x86_64/CMakeFiles/3.31.10/CMakeCUDACompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeCUDALinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Linker/GNU-CUDA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CUDA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeInspectCUDALinker.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCUDACompiler.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindCUDAToolkit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/NativeTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindCURL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindSQLite3.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/NativeReader.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindCURL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindSQLite3.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindTIFF.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPNG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindJPEG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"path" : "cmake/FetchDelta3D.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"path" : "cmake/InstallNative.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "cmake/vc_readerConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPython.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPython/Support.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/.cache/uv/builds-v0/.tmpVBMIi4/lib/python3.14/site-packages/nanobind/cmake/nanobind-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/.cache/uv/builds-v0/.tmpVBMIi4/lib/python3.14/site-packages/nanobind/cmake/nanobind-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"path" : "third_party/volcomp/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src/cmake/modern.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src/cmake/vc_delta3dConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.13/dist-packages/cmake/data/share/cmake-3.31/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64",
+		"source" : "/kaggle/working/villa/vc_reader"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

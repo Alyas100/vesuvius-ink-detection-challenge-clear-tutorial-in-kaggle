@@ -1,0 +1,14 @@
+# Target labels
+ vc_delta3d-populate
+# Source files and their labels
+/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/CMakeFiles/vc_delta3d-populate
+/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/CMakeFiles/vc_delta3d-populate.rule
+/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/CMakeFiles/vc_delta3d-populate-complete.rule
+/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-build.rule
+/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-configure.rule
+/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-download.rule
+/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-install.rule
+/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-mkdir.rule
+/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-patch.rule
+/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-test.rule
+/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-update.rule

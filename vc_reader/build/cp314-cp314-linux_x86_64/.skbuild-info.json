@@ -1,0 +1,8 @@
+{
+  "source_dir": "/kaggle/working/villa/vc_reader",
+  "build_dir": "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64",
+  "cmake_path": "/usr/local/bin/cmake",
+  "skbuild_path": "/root/.cache/uv/builds-v0/.tmpVBMIi4/lib/python3.14/site-packages/scikit_build_core",
+  "skbuild_version": "1.1.2",
+  "python_executable": "/root/.cache/uv/builds-v0/.tmpVBMIi4/bin/python"
+}

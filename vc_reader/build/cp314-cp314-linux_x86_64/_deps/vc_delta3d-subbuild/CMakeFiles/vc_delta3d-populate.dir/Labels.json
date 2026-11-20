@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/CMakeFiles/vc_delta3d-populate"
+		},
+		{
+			"file" : "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/CMakeFiles/vc_delta3d-populate.rule"
+		},
+		{
+			"file" : "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/CMakeFiles/vc_delta3d-populate-complete.rule"
+		},
+		{
+			"file" : "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-build.rule"
+		},
+		{
+			"file" : "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-configure.rule"
+		},
+		{
+			"file" : "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-download.rule"
+		},
+		{
+			"file" : "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-install.rule"
+		},
+		{
+			"file" : "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-mkdir.rule"
+		},
+		{
+			"file" : "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-patch.rule"
+		},
+		{
+			"file" : "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-test.rule"
+		},
+		{
+			"file" : "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vc_delta3d-populate"
+		],
+		"name" : "vc_delta3d-populate"
+	}
+}

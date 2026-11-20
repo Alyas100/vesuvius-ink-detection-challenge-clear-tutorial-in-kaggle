@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=/usr/local/lib/python3.13/dist-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/tmp/vc_delta3d-populate-gitclone.cmake
+source_dir=/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src
+work_dir=/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps
+repository=https://github.com/ScrollPrize/vc-delta3d.git
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=NEW
+      

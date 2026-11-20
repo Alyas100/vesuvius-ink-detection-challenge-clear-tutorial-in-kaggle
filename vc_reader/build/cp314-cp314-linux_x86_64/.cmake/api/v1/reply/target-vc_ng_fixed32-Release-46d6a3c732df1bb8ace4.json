@@ -1,0 +1,120 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/vc_delta3d-build/CMakeFiles/vc_ng_fixed32.dir/./src/ng/ng_fixed.c.o"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_compile_options",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			"build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src/cmake/modern.cmake",
+			"build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-std=gnu2x"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-ffp-contract=off"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "NG_BLOCK_DIM=32"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "NG_FIXED_GEOMETRY=32"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "vc_ng_fixed32::@1215ad472d0142b9e9b7",
+	"name" : "vc_ng_fixed32",
+	"paths" : 
+	{
+		"build" : "_deps/vc_delta3d-build",
+		"source" : "build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src/src/ng/ng_fixed.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

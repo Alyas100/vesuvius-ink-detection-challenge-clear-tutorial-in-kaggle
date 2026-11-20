@@ -1,0 +1,21 @@
+# ninja log v7
+1	43	1794555245482661437	vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-mkdir	306d8d48df6679e8
+1	43	1794555245482661437	/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-mkdir	306d8d48df6679e8
+43	1291	1794555246737750972	vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-download	f6d24262038f6594
+43	1291	1794555246737750972	/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-download	f6d24262038f6594
+1291	1340	1794555246738751043	vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-update	1fba9d7585a064a
+1291	1340	1794555246738751043	/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-update	1fba9d7585a064a
+1340	1383	1794555246825757250	vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-patch	244f42aedb66de10
+1340	1383	1794555246825757250	/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-patch	244f42aedb66de10
+1383	1416	1794555246862759889	vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-configure	d43fa134320222c
+1383	1416	1794555246862759889	/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-configure	d43fa134320222c
+1416	1445	1794555246891761958	vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-build	71d4fcdf5bc132bb
+1416	1445	1794555246891761958	/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-build	71d4fcdf5bc132bb
+1445	1493	1794555246939765383	vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-install	68620d71825e0dd9
+1445	1493	1794555246939765383	/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-install	68620d71825e0dd9
+1493	1521	1794555246967767380	vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-test	5b6562ceec6182c5
+1493	1521	1794555246967767380	/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-test	5b6562ceec6182c5
+1521	1550	1794555246996769449	CMakeFiles/vc_delta3d-populate-complete	fcd045cd56ea10d4
+1521	1550	1794555246996769449	vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-done	fcd045cd56ea10d4
+1521	1550	1794555246996769449	/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/CMakeFiles/vc_delta3d-populate-complete	fcd045cd56ea10d4
+1521	1550	1794555246996769449	/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-subbuild/vc_delta3d-populate-prefix/src/vc_delta3d-populate-stamp/vc_delta3d-populate-done	fcd045cd56ea10d4

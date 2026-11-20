@@ -1,0 +1,265 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b740c7606aab99f3ec0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "third_party/volcomp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third_party.volcomp-Release-b6a354266029a85657f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third_party/volcomp",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "_deps/vc_delta3d-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.vc_delta3d-build-Release-a3d12de4dd2e2c90d42c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/cp314-cp314-linux_x86_64/_deps/vc_delta3d-src",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "vc_reader_extensions",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "vc_delta3d",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "_catalog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_catalog-Release-48d5738f01e9c871f9ae.json",
+					"name" : "_catalog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_reader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_reader-Release-1f4ed072dedd18f1ed5d.json",
+					"name" : "_reader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_thinning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_thinning-Release-7a0ef38801d585a09190.json",
+					"name" : "_thinning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_transforms::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_transforms-Release-ccd63b370cd9d7715e0c.json",
+					"name" : "_transforms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nanobind-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nanobind-static-Release-256cb378c6fc97c2d910.json",
+					"name" : "nanobind-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vc_delta3d::@1215ad472d0142b9e9b7",
+					"jsonFile" : "target-vc_delta3d-Release-1f4d0dbd37b9e8b07753.json",
+					"name" : "vc_delta3d",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vc_ng_fixed128::@1215ad472d0142b9e9b7",
+					"jsonFile" : "target-vc_ng_fixed128-Release-54af7f766791bcb5aa03.json",
+					"name" : "vc_ng_fixed128",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vc_ng_fixed256::@1215ad472d0142b9e9b7",
+					"jsonFile" : "target-vc_ng_fixed256-Release-a6dbd4eb260a7159eacc.json",
+					"name" : "vc_ng_fixed256",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vc_ng_fixed32::@1215ad472d0142b9e9b7",
+					"jsonFile" : "target-vc_ng_fixed32-Release-46d6a3c732df1bb8ace4.json",
+					"name" : "vc_ng_fixed32",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vc_ng_fixed64::@1215ad472d0142b9e9b7",
+					"jsonFile" : "target-vc_ng_fixed64-Release-27e773790ecabf3953a6.json",
+					"name" : "vc_ng_fixed64",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vc_reader_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vc_reader_c-Release-f7d5906c18d735646c79.json",
+					"name" : "vc_reader_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vc_reader_catalog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vc_reader_catalog-Release-83678e5029baecf0dac8.json",
+					"name" : "vc_reader_catalog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vc_reader_native::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vc_reader_native-Release-8bdfe856492a2d9cef1b.json",
+					"name" : "vc_reader_native",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vc_reader_reader_cuda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vc_reader_reader_cuda-Release-d3f4a5e4134e7defd8aa.json",
+					"name" : "vc_reader_reader_cuda",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vc_reader_sftp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vc_reader_sftp-Release-e0c8ac499fa6ade2d5c1.json",
+					"name" : "vc_reader_sftp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vc_reader_thinning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vc_reader_thinning-Release-63896278bfea9360736a.json",
+					"name" : "vc_reader_thinning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vc_reader_transform_cuda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vc_reader_transform_cuda-Release-3c64941069386953640a.json",
+					"name" : "vc_reader_transform_cuda",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vc_reader_volcomp::@9097905bb809d9373848",
+					"jsonFile" : "target-vc_reader_volcomp-Release-74150385d54120dbb818.json",
+					"name" : "vc_reader_volcomp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/kaggle/working/villa/vc_reader/build/cp314-cp314-linux_x86_64",
+		"source" : "/kaggle/working/villa/vc_reader"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
