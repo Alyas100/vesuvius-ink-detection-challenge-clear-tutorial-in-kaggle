@@ -32,6 +32,8 @@
 
 # THEN, RUN THIS BELOW IN ORDER
 
+NOTE: for this 'muhdalyas/compiled-code-for-ink-detection', change to your correct path in below
+
 ### 1. Remove ALL 3 C++ packages from pyproject.toml so uv sync NEVER tries to compile them
 
 !sed -i '/"volume-cartographer"/d; /"vc-object-store"/d; /"vc-reader"/d' /kaggle/working/villa/vesuvius/pyproject.toml
